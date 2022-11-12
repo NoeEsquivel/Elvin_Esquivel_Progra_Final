@@ -14,7 +14,7 @@ import java.sql.SQLException;
  * @author JP
  */
 public class ConexionBaseDeDatos {
-    private String url="jdbc:mysql://localhost:3306/final_rapidito";//url de MySQL
+     private String url="jdbc:mysql://127.0.0.1:3306/final_progra";//url de MySQL
     private String usuario="admin";// usuario de mysql local
     private String clave="admin"; 
     private Connection conexion=null;  

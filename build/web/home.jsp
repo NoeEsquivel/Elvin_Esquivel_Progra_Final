@@ -17,7 +17,7 @@
             }
             body{
                 min-height: 100vh;
-                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0v9qhc9RTzcN66dPKLLuM4bD2SCCIlzvdA&usqp=CAU");
+                background-image: url("https://www.designerlander.com/wp-content/uploads/2021/04/guia-para-comprar-un-computador-laptop-vs-pc-06.jpg");
                 background-size: 100%;
                 background-position: center center;
                 background-attachment: fixed;
@@ -52,8 +52,8 @@
                 Consulta
             </a>
         <div class="dropdown-menu">
-                <a class="dropdown-item" href="VerAlumno.jsp">Alumnos</a>
-                <a class="dropdown-item" href="VerCatedratico.jsp">Catedráticos</a>
+                <a class="dropdown-item" href="VerComputadora.jsp">Computadora</a>
+               
             </div>
         </li>
       
@@ -64,8 +64,8 @@
                 Registrar
             </a>
         <div class="dropdown-menu">
-                <a class="dropdown-item" href="RegAlumno.jsp">Alumno</a>
-                <a class="dropdown-item" href="RegCatedratico.jsp">Catedrático</a>
+                <a class="dropdown-item" href="RegComputadora.jsp">Computadora</a>
+               
             </div>
         </li>
     </ul>
