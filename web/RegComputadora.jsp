@@ -44,14 +44,14 @@
         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                    <label for="codigo">Código</label>
-                                    <input class="form-control" type="text" placeholder="Ingrese su código" name="codigo" id="codigo">
+                                    <label for="marca_codigo">Código</label>
+                                    <input class="form-control" type="text" placeholder="Ingrese su código" name="marca_codigo" id="marca_codigo">
                                     <input type="hidden" name="control" value="GUARDAR"> 
                                 </div>
                                 
                                 <div class="col">
-                                    <label for="fecha">Modelo</label>  
-                                    <input class="form-control" type="text" placeholder="Ingrese el modelo" name="fecha">
+                                    <label for="modelo">Modelo</label>  
+                                    <input class="form-control" type="text" placeholder="Ingrese el modelo" name="modelo">
                                 </div>
                             </div>
         </div>
@@ -59,12 +59,12 @@
         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                    <label for="nombre">Tamaño de la pantalla</label>
-                                    <input class="form-control" type="text" placeholder="Ingrese tamaño" name="nombre" id="nombre">
+                                    <label for="tamaño_pantalla">Tamaño de la pantalla</label>
+                                    <input class="form-control" type="text" placeholder="Ingrese tamaño" name="tamaño_pantalla" id="tamaño_pantalla">
                                 </div>
                                  <div class="col">
-                                    <label for="apellido">Ram</label>
-                                    <input class="form-control" type="text" placeholder="Ingrese cantidad de ram" name="apellido" id="apellido">
+                                    <label for="cantidad_ram">Ram</label>
+                                    <input class="form-control" type="text" placeholder="Ingrese cantidad de ram" name="cantidad_ram" id="cantidad_ram">
                                 </div>
                             </div>
         </div>
@@ -72,12 +72,12 @@
         <div class="form-group">
                             <div class="row">
                                 <div class="col">
-                                    <label for="correo">Almacenamiento</label>
-                                    <input class="form-control" type="text" placeholder="Ingrese  almacenamiento" name="correo" id="correo">
+                                    <label for="almacenamiento">Almacenamiento</label>
+                                    <input class="form-control" type="text" placeholder="Ingrese  almacenamiento" name="almacenamiento" id="almacenamiento">
                                 </div>
                                  <div class="col">
-                                    <label for="telefono">Sistema Operativo</label>
-                                    <input class="form-control" type="text" placeholder="Ingrese sistema" name="telefono" id="telefono">
+                                    <label for="sistema_operativo">Sistema Operativo</label>
+                                    <input class="form-control" type="text" placeholder="Ingrese sistema" name="sistema_operativo" id="sistema_operativo">
                                 </div>
                             </div>
         </div>

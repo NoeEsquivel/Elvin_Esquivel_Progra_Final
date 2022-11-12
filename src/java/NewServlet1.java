@@ -19,9 +19,9 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = {"/NewServlet1"})
 public class NewServlet1 extends HttpServlet {
-    Computadora alumno;
-    ComputadoraController registroAlumno;
-     Computadora[] alumnosRegistrados;
+    Computadora computadora;
+    ComputadoraController registroComputadora;
+     Computadora[] computadoraRegistrados;
      StringBuffer objetoRespuesta = new StringBuffer();
     
     /**
@@ -47,28 +47,28 @@ public class NewServlet1 extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try ( PrintWriter respuesta = response.getWriter()) {            
            
-           registroAlumno=new ComputadoraController();
+           registroComputadora=new ComputadoraController();
            String control = request.getParameter("control");
            
            if(control.toUpperCase().equals("GUARDAR")){
-               alumno=new Computadora(
-                Integer.parseInt(request.getParameter("codigo")),
-                request.getParameter("nombre"),
-                request.getParameter("apellido"),        
-                request.getParameter("correo"),
-                request.getParameter("direccion"),
-                request.getParameter("sucursal"),
+               computadora=new Computadora(
+                Integer.parseInt(request.getParameter("marca_codigo")),
+                request.getParameter("modelo"),
+                request.getParameter("tamaño_pantalla"),        
+                request.getParameter("cantidad_ram"),
+                request.getParameter("almacenamiento"),
+                request.getParameter("sistema_operativo"),
                 request.getParameter("grado"),
                 request.getParameter("nivel"),
                 request.getParameter("fecha"),
                 Integer.parseInt(request.getParameter("telefono")));                
-                registroAlumno.guardarAlumno2(alumno);//almacenarlo en BD                 
+                registroComputadora.guardarAlumno2(computadora);//almacenarlo en BD                 
        
            }
                         
             
-            //registroAlumno.guardarAlumno(alumno);//almacenarlo en el array
-            //alumnosRegistrados= registroAlumno.getAlumnos();// consultar alumnos en el array                       
+            //registroAlumno.guardarAlumno(computadora);//almacenarlo en el array
+            //alumnosRegistrados= registroComputadora.getAlumnos();// consultar alumnos en el array                       
                     
        
             

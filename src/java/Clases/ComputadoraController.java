@@ -27,7 +27,7 @@ public class ComputadoraController {
    
     
     public String guardarAlumno2(Computadora alumno){        
-        String sql = "INSERT INTO rapidito.alumno(numero_carne, nombre_alumno, apellido_alumno, correo_alumno, direccion_alumno, telefono_alumno, sucursal_alumno, grado_alumno, nivel_alumno, fecha_alumno) ";
+        String sql = "INSERT INTO final_progra.computadora(marca_codigo, tamaño_pantalla, cantidad_ram, almacenamiento, sistema_operativo) ";
              sql += " VALUES(?,?,?,?,?,?,?,?,?,?)";              
        try{     
             abrirConexion();
